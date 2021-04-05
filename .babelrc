@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": false, // enable server-side rendering
+        "displayName": false, // display component name
+        "fileName": false // display file name
+        "minify": false, //  remove all whitespace and comments
+        "transpileTemplateLiterals": false, // keep valuable bytes out
+        "pure": true // remove dead code
+      }
+    ]
+  ]
+}
