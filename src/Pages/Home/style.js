@@ -1,5 +1,6 @@
 import styled from 'styled-components';
+export { Cabeçalho };
 
-const cabeçalho = styled.header`
+const Cabeçalho = styled.header`
     color: red;
 `;

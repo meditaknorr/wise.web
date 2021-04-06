@@ -1,13 +1,14 @@
 import React from 'react';
-import './style.js';
-
+import Header from '../../Components/Header/index';
+import Main from '../../Components/Main/index';
+import Footer from '../../Components/Footer/index';
 export default function() {
 
   return (
     <React.Fragment>
-      <header>
-        Teste
-      </header>
+      <Header />
+      <Main />
+      <Footer />
     </React.Fragment>
   )
 }
