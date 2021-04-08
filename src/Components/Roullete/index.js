@@ -13,7 +13,7 @@ export default function() {
   return (
     <React.Fragment>
       <Roulette>
-        <AliceCarousel autoPlay autoPlayInterval="3000">
+        <AliceCarousel autoPlay autoHeight="true" autoPlayInterval="3000">
           <img src={image1} className="sliderimg"/>
           <img src={image2} className="sliderimg"/>
           <img src={image3} className="sliderimg"/>
